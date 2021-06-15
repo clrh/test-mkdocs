@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Metadata Browse - Omeka S User Manual - fr- version française</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Metadata Browse";
+    var mkdocs_page_input_path = "modules/metadatabrowse.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="icon icon-home"> Omeka S User Manual - fr- version française</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../index.html">Home</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../accessibility.html">Accessibility Statement</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../s-planning-tips.html">Planning Tips</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../install.html">Installing</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../admin-dashboard.html">Admin Dashboard</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../search.html">Searching</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../frontpage.html">Front Page</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Sites</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../sites/index.html">Sites Management</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../sites/site_settings.html">Site Admin</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../sites/site_pages.html">Pages Management</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../sites/site_navigation.html">Navigation</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../sites/site_resources.html">Resources</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../sites/site_users.html">User Permissions</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../sites/site_theme.html">Theme Selection</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Resources</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../content/items.html">Items</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../content/item-sets.html">Item Sets</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../content/media.html">Media</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../content/vocabularies.html">Vocabularies</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../content/resource-template.html">Resource Templates</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Admin</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../admin/users.html">Users</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../admin/jobs.html">Jobs</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../admin/settings.html">Manage Settings</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Modules</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="index.html">Modules Management</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="collecting.html">Collecting</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="csseditor.html">CSS Editor</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="csvimport.html">CSV Import</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="customvocab.html">Custom Vocab</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="dspaceconnector.html">DSpace Connector</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="extracttext.html">Extract Text</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="fedoraconnector.html">Fedora Connector</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="filesideload.html">File Sideload</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="mapping.html">Mapping</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="metadatabrowse.html">Metadata Browse</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#global-configuration-checkbox">Global Configuration checkbox</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#direct-links-checkbox">Direct Links checkbox</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#choose-properties">Choose properties</a>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="numericdatatypes.html">Numeric Data Types</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="omeka2importer.html">Omeka2 Importer</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Scripto</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="scripto/index.html">Set up Scripto</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="scripto/scriptoproject.html">Scripto Projects</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="scripto/themeingScripto.html">Themeing Scripto</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="scripto/scriptoPublicView.html">Public Interface</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="scripto/troubleshootingScripto.html">Troubleshooting</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="sharing.html">Sharing</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="valuesuggest.html">ValueSuggest</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="zoteroimport.html">Zotero Import</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../errorLogging.html">Retrieving Error Messages</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../translateOmekaS.html">Translate Omeka S</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../configuration.html">Configuration Options</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Omeka S User Manual - fr- version française</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Modules &raquo;</li>
+        
+      
+    
+    <li>Metadata Browse</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="http://github.com/clrh/test-mkdocs.git/edit/master/docs/modules/metadatabrowse.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <p>The Metadata Browse module makes it possible to browse all resources that share a value for a particular metadata property. </p>
+<p>It does this by adding a link below selected properties that reads "See all items with this value"; when clicked, the module returns the results of that search (property value is equal to input). In function it is similar to the Omeka Classic plugin <a href="http://omeka.org/add-ons/plugins/search-by-metadata/">Search by Metadata</a>. </p>
+<p>The module's browse function is applied on the admin side when the module is active, and can be enabled on the public side of individual sites,  on a site-by-site basis. </p>
+<h2 id="configuration-options">Configuration Options</h2>
+<p>Once you have installed and activated the module, you can configure it from the Modules tab of the left-hand navigation. Click the Configure button, with the wrench icon, to the right of the Metadata Browse label. </p>
+<p>The module has two checkbox configuration options, Global Configuration and Direct Links. If Use global configuration is checked, you will also be able to select properties from a right-hand sidebar.</p>
+<p><img alt="Metadata Browse configuration settings" src="modulesfiles/mdbr_config2.png" /></p>
+<h3 id="global-configuration-checkbox">Global Configuration checkbox</h3>
+<p>The "Use global configuration on admin side" checkbox determines how the properties available for <em>admin side</em> metadata browsing (on items and item sets views) are determined: by aggregating the properties selected on all of the sites in the installation (unchecked) or limited to only the properties.</p>
+<p>When the box is <em>unchecked</em>, metadata browse on the admin side (and only the admin side) aggregates the metadata browse settings for all individual sites and applies them to every item and item set in the installation. </p>
+<p>Leaving the box unchecked allows installation users to browse the properties on the admin side which they have set as key on their sites. For example, a site about various artists might have the Metadata Browse enabled for 'Creator' (Dublin Core), while a site collecting conference papers might enable Metadata Browse for 'presented at' (Bibliographic Ontology); with the box unchecked, both 'Creator' and 'presented at' would have Metadata Browse enabled on the admin views of all items and item sets on the installation.</p>
+<p>When the box is <em>checked</em>, individual site settings still apply on the public views of those sites, but are not used on the admin side. Instead, only those properties selected in the Metadata Browse module configuration settings (the current page) are used on the admin side. So if the global admin of the installation example above checked the Global Configuration box and only enabled the properties 'Title' and 'Creator', then the 'presented at' property would not include a "See all items with this value" option on the admin side item browse.</p>
+<p>Checking the box can be used to limit the number of properties which have Metadata Browse enabled on the admin side. If, for example, the site about various artists mentioned above was using Metadata Browse on every possible property, those Metadata Browse links would still be visible on their site, but would not show up on the admin side. Instead, the Global Administrator(s) could decided which properties to enable browsing on for the admin side, thus reducing visual clutter. </p>
+<h3 id="direct-links-checkbox">Direct Links checkbox</h3>
+<p>The "Direct Links" checkbox sets how metadata browse links are displayed on both the admin side and across all sites. </p>
+<p>If this box is unchecked, the properties which have been selected for metadata browse will display with a red textual link under them which reads "see all items with this value". Clicking on the link text opens the page of items with matching metadata.</p>
+<p>In this example, metadata browse is active for the "Date of Publication" property:</p>
+<p><img alt="The item *Sense and Sensibility*. The date property has text as described, and is indicated with a blue arrow." src="modulesfiles/mdbr-directlinkNo.png" /></p>
+<p>If this box is checked, the values of the properties themselves become the link, similar to how a property populated by a resource displays. In this case, clicking on the property value itself opens the page of items with matching metadata.</p>
+<p><img alt="The item *Sense and Sensibility*. The date property displays as a link, and is indicated with a blue arrow." src="modulesfiles/mdbr-directlinkYes.png" /> </p>
+<h3 id="choose-properties">Choose properties</h3>
+<p>Selecting properties for Metadata Browse in the Module configuration will only work if the <em>use global configuration</em>  checkbox is checked (see <a href="#global-configuration-checkbox">above</a>).</p>
+<p>Select the properties from the sidebar by clicking on the desired property. It will load under the prompt "Choose properties".</p>
+<p><img alt="Metadata Browse configuration, some properties selected" src="modulesfiles/mdbr_config4.png" /></p>
+<p>To remove a property simply click the trash can/delete icon to the right of the property label.</p>
+<h2 id="admin-side-browse">Admin side browse</h2>
+<p>Once you have selected properties for Metadata Browse, either in the configuration for the module or on at least one site, you will be able to search for exact matches to item and item set properties on the admin side.</p>
+<p>When viewing the metadata of any item (not when editing), you will be able to browse those properties as exact match for any other item in the installation with that value in that property. If the direct <a href="#direct-links">direct link checkbox</a> is active, these properties will display as links; if not, they will display with the text "see all items with this value" just below the value for the property.</p>
+<p><img alt="Admin side view of item with red arrows pointing to the metadata browse links" src="modulesfiles/mdbr_admin1.png" /></p>
+<h2 id="metadata-browse-on-sites">Metadata Browse on Sites</h2>
+<p>Once the module is activated and installed, it will show up in the context menu for <a href="../sites/index.html">sites</a> on your installation. </p>
+<p>To set up Metadata Browse for a site, click on the Metadata Browse tab in the site's context menu.</p>
+<p><img alt="A red arrow points to the Metadata Browse tab" src="modulesfiles/mdbr_sites1.png" /></p>
+<p>On the page which loads, select properties from the sidebar to enable metadata browse by clicking on them in the sidebar.</p>
+<p><img alt="Metadata Browse site options" src="modulesfiles/mdbr_sites2.png" /></p>
+<p>Delete any selected properties by clicking the trash can/delete icon. If you accidentally click the delete button, simply click the undo button which replaces it to keep that property. </p>
+<p><img alt="A property set to be deleted, showing the undo button" src="modulesfiles/mdbr_sites3.png" /></p>
+<p>Remember to click the <em>Save</em> button to save changes. </p>
+<h3 id="public-view">Public View</h3>
+<p>Once you have selected properties and saved changes, visitors to your site can use the Metadata Browse properties to search for all items on the site with matching properties.</p>
+<p>The browse will either display with the property as a link or with the link text "see all items with this value", depending on whether the <a href="#direct-links">direct link checkbox</a> in the global module configuration.</p>
+<p>In the example below, Metadata Browse is available for Title, Date of Publication, and Publisher, and Direct Links is not active.</p>
+<p><img alt="An item with arrows pointing to the links for &quot;see all items with this value&quot;" src="modulesfiles/mdbr_public1.png" /></p>
+<p>Clicking on "See all items with this value" under creator takes a visitor to a page of exact match search results. For example, this is the result for clicking "see all items with this value" for the Publisher property in the previous image:</p>
+<p><img alt="Beginning of search results" src="modulesfiles/mdbr_public2.png" /></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="numericdatatypes.html" class="btn btn-neutral float-right" title="Numeric Data Types">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="mapping.html" class="btn btn-neutral" title="Mapping"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  <p><a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/2.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/">Creative Commons Attribution-NonCommercial 2.0 Generic License</a>.</p>
+  <p>Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.</p>
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="http://github.com/clrh/test-mkdocs.git/" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="mapping.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="numericdatatypes.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

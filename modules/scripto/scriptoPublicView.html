@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Public Interface - Omeka S User Manual - fr- version française</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Public Interface";
+    var mkdocs_page_input_path = "modules/scripto/scriptoPublicView.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../../index.html" class="icon icon-home"> Omeka S User Manual - fr- version française</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../index.html">Home</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../accessibility.html">Accessibility Statement</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../s-planning-tips.html">Planning Tips</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../install.html">Installing</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../admin-dashboard.html">Admin Dashboard</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../glossary.html">Glossary</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../search.html">Searching</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../frontpage.html">Front Page</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Sites</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../sites/index.html">Sites Management</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../sites/site_settings.html">Site Admin</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../sites/site_pages.html">Pages Management</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../sites/site_navigation.html">Navigation</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../sites/site_resources.html">Resources</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../sites/site_users.html">User Permissions</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../sites/site_theme.html">Theme Selection</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Resources</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../content/items.html">Items</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../content/item-sets.html">Item Sets</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../content/media.html">Media</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../content/vocabularies.html">Vocabularies</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../content/resource-template.html">Resource Templates</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Admin</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../admin/users.html">Users</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../admin/jobs.html">Jobs</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../admin/settings.html">Manage Settings</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Modules</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../index.html">Modules Management</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../collecting.html">Collecting</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../csseditor.html">CSS Editor</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../csvimport.html">CSV Import</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../customvocab.html">Custom Vocab</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../dspaceconnector.html">DSpace Connector</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../extracttext.html">Extract Text</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fedoraconnector.html">Fedora Connector</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../filesideload.html">File Sideload</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../mapping.html">Mapping</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../metadatabrowse.html">Metadata Browse</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../numericdatatypes.html">Numeric Data Types</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../omeka2importer.html">Omeka2 Importer</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="#">Scripto</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="index.html">Set up Scripto</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="scriptoproject.html">Scripto Projects</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="themeingScripto.html">Themeing Scripto</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="scriptoPublicView.html">Public Interface</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#scripto-page-block">Scripto page block</a>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="troubleshootingScripto.html">Troubleshooting</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../sharing.html">Sharing</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../valuesuggest.html">ValueSuggest</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../zoteroimport.html">Zotero Import</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../errorLogging.html">Retrieving Error Messages</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../translateOmekaS.html">Translate Omeka S</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../configuration.html">Configuration Options</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../index.html">Omeka S User Manual - fr- version française</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../index.html">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Scripto &raquo;</li>
+        
+      
+        
+          <li>Modules &raquo;</li>
+        
+      
+    
+    <li>Public Interface</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="http://github.com/clrh/test-mkdocs.git/edit/master/docs/modules/scripto/scriptoPublicView.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <p>On the public side, all users can browse Scripto projects that are marked as public. In order to edit or create content, users may need a Scripto (Mediawiki) account and be logged in, but this is only required for MediaWiki installations that forbid anonymous editing. Even so, users may still want to log in to Scripto so they can better monitor their work.</p>
+<p>To toggle between the public and admin views of a project, delete the <code>/admin</code> from the url of any Scripto site, or add it in directly after the name of your Omeka S installation. </p>
+<p>The admin side is <code>youromekaurl.net/admin/scripto</code> and the public side is <code>youromekaurl.net/scripto</code>.</p>
+<p>All transcription activity takes place on the <strong>public</strong> side of the Scripto project. You cannot edit a transcription from the admin dashboard.</p>
+<p>For an example of how to orient community members to the interface, see the <a href="http://wardepartmentpapers.org/s/home/page/transcribing-guide">Guide to transcribing the <em>Papers of the War Department</em></a></p>
+<h2 id="linking-between-scripto-and-an-omeka-s-site">Linking between Scripto and an Omeka S site</h2>
+<p>While the Scripto public interface exists somewhat separately from the sites you build in your Omeka S installation, it is possible to move between them.</p>
+<p>From your Omeka S sites, you can create direct links to your Scripto projects using the <a href="../../../sites/site_navigation/#custom-link">custom link</a> in site Navigation or as a link in any <a href="../../../sites/site_pages/#html">HTML page block text</a>.  </p>
+<h3 id="scripto-page-block">Scripto page block</h3>
+<p>When you add the Scripto module, it creates a new <a href="../../../sites/site_pages/#page-blocks">page block</a> called "Scripto"</p>
+<p>The Scripto page block offers a drop-down to let you select from all available Scripto <a href="../scriptoproject/">projects</a>. Select the project you want to link from the dropdown.</p>
+<p><img alt="Dropdown with a single site option" src="../modulesfiles/scripto-pageBlock.png" /></p>
+<p>On the public page view, this will display as a link. </p>
+<p>Once you have applied this block to a site, it also creates a link from the project to that Omeka S site <em>when accessed via the site, rather than a direct Scripto link</em>. When users browse the project, the name of the associated site is listed in the upper right hand corner of the browser window, near their user information; this serves as a link to the site.</p>
+<p><img alt="Top of a scripto project page with a red highlight over the link to the Omeka S site." src="../modulesfiles/scripto-pageBlocklink.png" /></p>
+<h2 id="public-side-user-dashboard">Public-side user dashboard</h2>
+<p>From the public side, users have access to their dashboard, which givens them an overview of your Contributions and your Watchlist. </p>
+<p>Recent Contributions (documents the user has edited) display as a list. In each row, it will show the following information:</p>
+<ul>
+<li>Document type (just “document” in most cases);</li>
+<li>Document title, which is also a link to the document page, with the page number in parentheses after the title;</li>
+<li>Link to see the changes with the version immediately before that (“diff”);</li>
+<li>Link to see the history of the document’s edits (“hist);</li>
+<li>Date of last change in the format Month/Day/Year followed by timestamp; and</li>
+<li>Summary of the changes, with the number of characters changed in parentheses, followed by any comment or summary supplied by the person making the change.</li>
+</ul>
+<p>Above the list is a button which will take users to see all of their contributions</p>
+<p>Watched pages will also display as a list. Watched pages include those which the user has already selected, which can include items being edited by another user. Next to the list header is a button which will display all items on the watchlist. </p>
+<p>The list of watched pages displays the following information:</p>
+<ul>
+<li>Document type (just “document” in most cases);</li>
+<li>Document title, which is also a link to the document page, with the page number in parentheses after the title;</li>
+<li>Link to see the changes made with the version immediately before that (“diff”);</li>
+<li>Link to see the history of the document’s edits (“hist);</li>
+<li>Date of last change in the format Month/Day/Year followed by timestamp; and</li>
+<li>Summary of the changes, with the number of characters changed in parentheses, followed by any comment or summary supplied by the person making the change</li>
+</ul>
+<h2 id="public-project-browse">Public project browse</h2>
+<p>On the upper right of the browser, near the "Log In" buttons or, when logged in, the user icon, is a link to browse all projects in the Scripto instance. </p>
+<p>This browse page shows the project title, a representative icon determined by the first item in the project, and the project's description (set in the <a href="../scriptoproject/#configuration-options">configuration options</a>), if any. </p>
+<p><img alt="Project browse showing three projects, only two of which have a description." src="../modulesfiles/scripto-publicBrowse.png" />
+Clicking on any project's title or representative thumbnail takes you to the project's view.</p>
+<h2 id="public-project-view">Public project view</h2>
+<p>The main project view displays the title of the project, as well as its description, if any.</p>
+<p>Across the top of the page, just under the Scripto navigation options (project browse and user icon), are:</p>
+<ul>
+<li>the Project title which functions as link back to the main project page; </li>
+<li>a link to the project guidelines; </li>
+<li>a browse items links; and</li>
+<li>a search bar to search the items in the project (this is a full-text search for the metadata of the items and media).</li>
+</ul>
+<p>Below this is a table of the items in the project. The table will be labeled Items unless you selected from the Item type dropdown in the project's <a href="../scriptoproject/#configuration-options">configuration options</a>.</p>
+<p>The table has two display options. The default view is set in the project's configuration options.</p>
+<ul>
+<li><strong>List</strong> displays the items in horizontal rows that prioritizes text with:<ul>
+<li>a small thumbnail of the image;</li>
+<li>the document title;</li>
+<li>date last transcribed; </li>
+<li>transcription status; and</li>
+<li>number of approved pages, shown as a bar and a numeric count.</li>
+</ul>
+</li>
+<li><strong>Grid</strong> displays each items four per row with:<ul>
+<li>a large thumbnail of the first page, which can give you a quick sense of the quality of the image and handwriting;</li>
+<li>the document title;</li>
+<li>date last transcribed;</li>
+<li>transcription status; and</li>
+<li>number of approved pages, shown as a bar and a numeric count.</li>
+</ul>
+</li>
+</ul>
+<p>Transcription stat</p>
+<p>On the public side, projects display a progress bar for all items, so that community users can easily identify media or items to work on. </p>
+<p><img alt="Public project view. There are two large square thumbnails representing items in the project. One has a &quot;1/3&quot; and a full orange bar underneath it, indicating that the item is in progress" src="../modulesfiles/scripto_publicproj.png" /></p>
+<h3 id="public-item-view">Public item view</h3>
+<p>The public item view displays the Omeka S item metadata in a column on the left side, and the media in the main area on the right. </p>
+<p>Users can toggle between gallery and list views using the layout button. They can also <em>sort</em> and <em>filter</em> media in the item. Sort options are by last edited, last completed, and last approved. Filter options are is edited, is not edited, is completed, is not completed, is approved, is not approved.</p>
+<p><img alt="Public item view" src="../modulesfiles/scripto_publicitem.png" /></p>
+<p>Users can either click on the media's index number to view media information, on edit to go straight to the mediawiki transcription/translation interface.</p>
+<h3 id="public-media-view">Public media view</h3>
+<p>The initial media view shows the media on the right, with metadata on the left. Underneath the media display is the HTML of whatever wikitext has already been generated. </p>
+<p>At the top of the page is the title of the item, which functions as a link back to the item, followed by the media's number (the second page will be #2, for example). Below this information is the original title of the media itself. </p>
+<p>On the left above the media and metadata are a series of buttons:</p>
+<ul>
+<li><em>Edit</em></li>
+<li><em>Browse revision history</em></li>
+<li><em>View notes</em></li>
+<li>And <em>track/stop tracking media</em> with a star button which toggles this option.</li>
+</ul>
+<p>On the right above the media and metadata is a pagination button which allows users to easily move between media for a single item</p>
+<p><img alt="media view" src="../modulesfiles/scripto_mediav.png" /></p>
+<h4 id="adding-text">Adding text</h4>
+<p>To start working with a piece of media, the user clicks "edit" in the toolbar above the media and metadata display.</p>
+<p>A new page loads, with a media viewer and an editing workspace for users to enter text. Depending on the selected layout, media may be to the right of the workspace or above it.</p>
+<p><img alt="edit media" src="../modulesfiles/scripto_editmedia.png" /></p>
+<p>The area between the media title and the workspace and viewer has a combination of information display and action items for the user. </p>
+<ul>
+<li>On the far left is a button to track or stop tracking media, with a star icon.</li>
+<li>In the center is an information display with the media's Protection, protection expiration, and status, and a checkbox where the user can mark the media as completed. </li>
+<li>On the far right are buttons to <em>save</em> or <em>cancel</em> changes. </li>
+<li>Users can rotate the media and zoom in and out using the controls within the media viewer.</li>
+<li>Users can use the layout buttons to toggle between side by side and top and bottom views. </li>
+</ul>
+<p>Just above the MediaWiki workspace is a field where users are encouraged to summarize their changes. </p>
+<p>The editing workspace has a formatting toolbar which adds MediaWiki markup to the text (it does not change the appearance of the text in the workspace). Any formatting will be applied to the HTML view of the text after changes are saved.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="troubleshootingScripto.html" class="btn btn-neutral float-right" title="Troubleshooting">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="themeingScripto.html" class="btn btn-neutral" title="Themeing Scripto"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  <p><a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/2.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/">Creative Commons Attribution-NonCommercial 2.0 Generic License</a>.</p>
+  <p>Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.</p>
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="http://github.com/clrh/test-mkdocs.git/" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="themeingScripto.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="troubleshootingScripto.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

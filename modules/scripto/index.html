@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Set up Scripto - Omeka S User Manual - fr- version française</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Set up Scripto";
+    var mkdocs_page_input_path = "modules/scripto/index.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../../index.html" class="icon icon-home"> Omeka S User Manual - fr- version française</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../index.html">Home</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../accessibility.html">Accessibility Statement</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../s-planning-tips.html">Planning Tips</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../install.html">Installing</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../admin-dashboard.html">Admin Dashboard</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../glossary.html">Glossary</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../search.html">Searching</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../frontpage.html">Front Page</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Sites</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../sites/index.html">Sites Management</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../sites/site_settings.html">Site Admin</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../sites/site_pages.html">Pages Management</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../sites/site_navigation.html">Navigation</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../sites/site_resources.html">Resources</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../sites/site_users.html">User Permissions</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../sites/site_theme.html">Theme Selection</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Resources</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../content/items.html">Items</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../content/item-sets.html">Item Sets</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../content/media.html">Media</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../content/vocabularies.html">Vocabularies</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../content/resource-template.html">Resource Templates</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Admin</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../admin/users.html">Users</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../admin/jobs.html">Jobs</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../admin/settings.html">Manage Settings</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Modules</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../index.html">Modules Management</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../collecting.html">Collecting</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../csseditor.html">CSS Editor</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../csvimport.html">CSV Import</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../customvocab.html">Custom Vocab</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../dspaceconnector.html">DSpace Connector</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../extracttext.html">Extract Text</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../fedoraconnector.html">Fedora Connector</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../filesideload.html">File Sideload</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../mapping.html">Mapping</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../metadatabrowse.html">Metadata Browse</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../numericdatatypes.html">Numeric Data Types</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../omeka2importer.html">Omeka2 Importer</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="#">Scripto</a>
+    <ul class="current">
+                <li class="toctree-l2 current"><a class="reference internal current" href="index.html">Set up Scripto</a>
+    <ul class="current">
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="scriptoproject.html">Scripto Projects</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="themeingScripto.html">Themeing Scripto</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="scriptoPublicView.html">Public Interface</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="troubleshootingScripto.html">Troubleshooting</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../sharing.html">Sharing</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../valuesuggest.html">ValueSuggest</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../zoteroimport.html">Zotero Import</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../errorLogging.html">Retrieving Error Messages</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../translateOmekaS.html">Translate Omeka S</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../configuration.html">Configuration Options</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../index.html">Omeka S User Manual - fr- version française</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../index.html">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Scripto &raquo;</li>
+        
+      
+        
+          <li>Modules &raquo;</li>
+        
+      
+    
+    <li>Set up Scripto</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="http://github.com/clrh/test-mkdocs.git/edit/master/docs/modules/scripto/index.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <p>The Scripto module for Omeka S allows you to create projects which allow members of the public to transcribe, translate, or describe media attached to items in your Omeka S installation. </p>
+<p>The items and media are organized into an item set and then synced with a project in Scripto. Content made within Scripto can be periodically imported into Omeka S as item and media metadata.</p>
+<p>All content creation (transcription, translation, or description) takes place on the <a href="../modules/scripto/scriptoPublicView/">public face</a> of your Scripto <a href="../modules/scripto/scriptoproject/">project</a></p>
+<h2 id="concepts-and-terminology">Concepts and Terminology</h2>
+<p>A Scripto <strong>Project</strong> allows you to organize the materials you want to work with, and set how you intend to work with them. A project can either transcribe, translate, or describe; it cannot do more than one. </p>
+<p>However, the Omeka S Scripto module allows you to create multiple projects on a single Scripto installation. Like sites in Omeka S, Scripto projects can exist independently of each other. This means that you can support a manuscript transcription project and a document translation project through the same Omeka S installation.</p>
+<p>An <strong>Item</strong> in Scripto corresponds to an item in Omeka S. When browsing projects, community members will page through items. Items can also be labeled as: audio, book, document, journal, manuscript, paper, or video.</p>
+<p>The <strong>Media</strong> associated with an item are the level at which community members transcribe, translate, or describe. Every piece of media is associated with an item. Media can also be called: entry, folio, image, page, segment, section, or sheet. </p>
+<h2 id="installation-and-configuration">Installation and Configuration</h2>
+<p>To install Scripto, you must:</p>
+<ul>
+<li>be running Omeka S v2.0.0 or higher;</li>
+<li>have a <a href="https://www.mediawiki.org/wiki/MediaWiki">MediaWiki</a> installation running on the same server as the Omeka S installation. Minimum MediaWiki version is 1.30.0.</li>
+</ul>
+<p>Create the MediaWiki installation on your server using <a href="https://www.mediawiki.org/wiki/Manual:FAQ#Installation_and_configuration">their instructions</a>. Install the Scripto module using the <a href="../modules/#installing-modules">documentation for installing modules</a>. </p>
+<p>Once you have installed the module and created your MediaWiki installation, go to the Modules tab of your Omeka S installation and activate the Scripto module.</p>
+<p>Staying on the Modules tab, click the Configure button for the Scripto module. There is a single, required field for you to enter the url for your MediaWiki API.</p>
+<p><img alt="Scripto module configuration page, with the field empty and highlighted in red" src="../modulesfiles/scripto-configure.png" /></p>
+<p>Enter the url for your <a href="https://www.mediawiki.org/wiki/API:Main_page#Endpoint">MediaWiki API endpoint</a> in the field; this should be along the lines of <code>&lt;your mediawiki url&gt;/api.php</code>. Be sure to click "Submit" to save your changes.  </p>
+<h3 id="scripto-vocabulary">Scripto Vocabulary</h3>
+<p>Once Scripto is installed and active, it will add the Scripto <a href="../../content/vocabularies/">Vocabulary</a> to your Omeka S installation. This vocabulary contains the following properties:</p>
+<ul>
+<li>Content: A plain text representation of the content of a resource.</li>
+<li>Transcription: A transcription of a resource</li>
+<li>Translation: A translation of a resource.</li>
+</ul>
+<p>Do not edit this vocabulary.</p>
+<h2 id="create-an-item-set">Create an item set</h2>
+<p>The Scripto module uses <a href="../../content/item-sets">item sets</a> to manage the content coming to and from your Omeka installation. </p>
+<p>Each Scripto project needs its own item set with which it can sync. Create the item set using items from your Omeka S installation which you want to be included in the project. You can add items to this item set later if you need to. </p>
+<h2 id="scripto-admin-dashboard">Scripto Admin Dashboard</h2>
+<p>The Scripto tab which appears under the Modules section of the left-hand navigation on the Omeka S installation admin side takes you to the Scripto Dashboard. </p>
+<p>From the dashboard, you can log in to Scripto using the bar across the top:</p>
+<p><img alt="Scripto dashboard header and log in fields" src="../modulesfiles/scripto-dash-login.png" /></p>
+<p>Once you are logged in, the dashboard will include:</p>
+<ul>
+<li>A bar across the top with your username and links to the dashboard, your contributions, your watchlist, and a button to Log Out of Scripto.</li>
+<li>A view of all the <a href="../modules/scripto/scriptoproject/">Projects</a> you own.</li>
+<li>A view of all the <a href="../modules/scripto/scriptoproject/">Projects</a> you review</li>
+<li>A view of your recent Contributions</li>
+<li>A view of your watchlist.</li>
+</ul>
+<p><img alt="Scripto dashboard with three projects, two of which the user reviews, and a series of recent contributions." src="../modulesfiles/scripto_dash.png" /></p>
+<p>From the dropdown in the upper right, Omeka S global and site admins can: browse all <a href="../modules/scripto/scriptoproject/">Projects</a>; add a new <a href="../modules/scripto/scriptoproject/">Project</a>, and browse all Scripto users. </p>
+<p><img alt="Dropdown showing the options to browse projects, add a project, or browse users" src="../modulesfiles/scripto-dash-actions.png" /></p>
+<h2 id="users">Users</h2>
+<p>In addition to an Omeka S user account, any individual working on Scripto will need to have a MediaWiki user account as well. They can sign up for this account from the public side of the Scripto interface: <code>&lt;your omeka S url&gt;/scripto/create-account</code>.</p>
+<p>In order to change the status of transcriptions and sync projects to and from Omeka S, users must have <a href="https://www.mediawiki.org/wiki/Manual:User_rights">Bureaucrat level permissions</a> on the MediaWiki installation. This <em>must be done on MediaWiki</em> and cannot be managed through the Scripto dashboard on Omeka S.</p>
+<p>You may find it easiest to have administrators of Scripto projects use the same or similar user names on both installations, in order to keep track of who is doing what. </p>
+<h3 id="browse-users">Browse users</h3>
+<p>From the "actions" dropdown in the upper right corner of the Scripto Dashboard, you can select "Browse users"</p>
+<p>This will take you to a user browse page showing all of the Scripto users on this installation (from MediaWiki). </p>
+<p><img alt="Browse users table with two users, one regular and one admin" src="../modulesfiles/scripto-browseUsers.png" /></p>
+<p>The users are displayed in a table listing their:</p>
+<ul>
+<li>Name</li>
+<li>MediaWiki Groups, which will indicate their roles</li>
+<li>Edit count (how many media they have edited)</li>
+<li>Date the account was created.</li>
+</ul>
+<h3 id="user-contributions">User contributions</h3>
+<p>Clicking on a user's name will take you to a page with a summary of their contributions. </p>
+<p><img alt="Contributions of the user DemoUser - one edit dated 15 October 2019" src="../modulesfiles/scripto-user-contributions.png" /></p>
+<p>For each user, there will be a table with a row for every edit they have made to a piece of media. The columns are:</p>
+<ul>
+<li>Revision, with a timestamp which links to that revision;</li>
+<li>Media #, with a link to the media;</li>
+<li>Type;</li>
+<li>Item, which links to the item <em>in Scripto</em>;</li>
+<li>Project with which the item is associated;</li>
+<li>Size of the edit;</li>
+<li>Comment, if any. </li>
+</ul>
+<h2 id="public-and-admin-views">Public and Admin views</h2>
+<p>To toggle between the public and admin views of a project, delete the <code>/admin</code> from the url of any Scripto site, or add it in directly after the name of your Omeka S installation. </p>
+<p>The admin side is <code>youromekaurl.net/admin/scripto</code> and the public side is <code>youromekaurl.net/scripto</code>.</p>
+<p>All transcription activity takes place on the <strong>public</strong> side of the Scripto project. You cannot edit a transcription from the admin dashboard.</p>
+<h2 id="uninstalling-scripto">Uninstalling Scripto</h2>
+<p>In order to successfully uninstall Scripto, the module must be still be active. Do not deactivate Scripto prior to uninstalling. </p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="scriptoproject.html" class="btn btn-neutral float-right" title="Scripto Projects">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../omeka2importer.html" class="btn btn-neutral" title="Omeka2 Importer"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  <p><a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/2.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/">Creative Commons Attribution-NonCommercial 2.0 Generic License</a>.</p>
+  <p>Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.</p>
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="http://github.com/clrh/test-mkdocs.git/" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="../omeka2importer.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="scriptoproject.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

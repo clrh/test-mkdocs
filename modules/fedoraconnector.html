@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Fedora Connector - Omeka S User Manual - fr- version française</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="../css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Fedora Connector";
+    var mkdocs_page_input_path = "modules/fedoraconnector.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="icon icon-home"> Omeka S User Manual - fr- version française</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../index.html">Home</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../accessibility.html">Accessibility Statement</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../s-planning-tips.html">Planning Tips</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../install.html">Installing</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../admin-dashboard.html">Admin Dashboard</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../search.html">Searching</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../frontpage.html">Front Page</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Sites</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../sites/index.html">Sites Management</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../sites/site_settings.html">Site Admin</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../sites/site_pages.html">Pages Management</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../sites/site_navigation.html">Navigation</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../sites/site_resources.html">Resources</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../sites/site_users.html">User Permissions</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../sites/site_theme.html">Theme Selection</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Resources</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../content/items.html">Items</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../content/item-sets.html">Item Sets</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../content/media.html">Media</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../content/vocabularies.html">Vocabularies</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../content/resource-template.html">Resource Templates</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Admin</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../admin/users.html">Users</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../admin/jobs.html">Jobs</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../admin/settings.html">Manage Settings</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Modules</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="index.html">Modules Management</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="collecting.html">Collecting</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="csseditor.html">CSS Editor</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="csvimport.html">CSV Import</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="customvocab.html">Custom Vocab</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="dspaceconnector.html">DSpace Connector</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="extracttext.html">Extract Text</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="fedoraconnector.html">Fedora Connector</a>
+    <ul class="current">
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="filesideload.html">File Sideload</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="mapping.html">Mapping</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="metadatabrowse.html">Metadata Browse</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="numericdatatypes.html">Numeric Data Types</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="omeka2importer.html">Omeka2 Importer</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Scripto</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="scripto/index.html">Set up Scripto</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="scripto/scriptoproject.html">Scripto Projects</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="scripto/themeingScripto.html">Themeing Scripto</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="scripto/scriptoPublicView.html">Public Interface</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="scripto/troubleshootingScripto.html">Troubleshooting</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="sharing.html">Sharing</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="valuesuggest.html">ValueSuggest</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="zoteroimport.html">Zotero Import</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../errorLogging.html">Retrieving Error Messages</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../translateOmekaS.html">Translate Omeka S</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../configuration.html">Configuration Options</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Omeka S User Manual - fr- version française</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Modules &raquo;</li>
+        
+      
+    
+    <li>Fedora Connector</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="http://github.com/clrh/test-mkdocs.git/edit/master/docs/modules/fedoraconnector.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <p>Fedora Connector is a <a href="index.html">module</a> for Omeka S which allows you to connect an Omeka S instance to a Fedora 4 repository in order to import items from containers in that repository. In addition to importing information, the Omeka S item will include a link back to the original item.</p>
+<p>To install Fedora Connector, follow the instructions for <a href="index.html#installing-modules">Installing Modules</a> on the Modules documentation. Following a successful installation you should be redirected to the configuration page for Fedora Connector.</p>
+<p>Note that Fedora Connector only works with version 4 of Fedora.</p>
+<h2 id="configuration">Configuration</h2>
+<p>There are two options for configuring Fedora Connector, both of which enable the creation of <a href="../content/vocabularies.html">vocabularies</a> in your Omeka S install.</p>
+<p><img alt="Two checkbox options, the first being “Import Fedora Vocabulary” and the second “Import Linked Data Platform Vocabulary”" src="modulesfiles/mods_fcconfig.png" /></p>
+<p>The first checkbox offers the option to import the Fedora Vocabulary into your Omeka S install’s Vocabularies. The second checkbox offers the option to import the Linked Data Platform Vocabulary into your Omeka S install’s Vocabularies. If you do so, data in these vocabularies will also be imported into Omeka S.</p>
+<p>You can check these boxes when you first install Fedora Connector or at a later point. Note that unchecking the boxes will not delete the vocabularies - you would have to do that from the <a href="../content/vocabularies.html">vocabularies</a> tab in the admin dashboard.</p>
+<h2 id="import-data">Import Data</h2>
+<p>To use Fedora Connector, navigate to the tab labelled <em>Fedora Connector</em> on the left-hand navigation of the admin dashboard. This will automatically take you to the Import sub-tab.</p>
+<p><img alt="Fedora Connector navigation option with two sub-tab options for Import and Past Imports" src="modulesfiles/mods_fcnav.png" /></p>
+<p>You should see a screen with the following options:</p>
+<ul>
+<li><em>Fedora Container URI</em> for the Repository (required);</li>
+<li><em>Import files into Omeka</em> checkbox, check yes if you want to import media and other files attached to content (optional, recommended);</li>
+<li><em>Comment</em> for example, any notes to yourself or other users of the installation (optional);</li>
+<li><em>Import into</em> a selected <a href="../content/item-sets.html">Item Set</a>, if desired (optional). </li>
+<li>Note that the Item Set must already exist in order to import into it.</li>
+</ul>
+<p><img alt="Screenshot of the field options for Fedora Connector" src="modulesfiles/mods_fedoraconnect.png" /></p>
+<p>When the data is complete, press submit. You can track the status of the import by navigating to the Fedora Connector &gt; Past Imports tab or on the <a href="../admin/jobs.html">Jobs</a> tab of the left-hand navigation on the admin dashboard.</p>
+<h2 id="undo-an-import">Undo an Import</h2>
+<p>To undo a completed import and remove all associated items, go to the Fedora Connector tab on the left-hand navigation of the admin dashboard, click on Fedora Connector and then click on Past Imports, which should appear below the Fedora Connector tab.</p>
+<p>Check the box for each import you wish to undo and click submit.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="filesideload.html" class="btn btn-neutral float-right" title="File Sideload">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="extracttext.html" class="btn btn-neutral" title="Extract Text"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  <p><a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/2.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/">Creative Commons Attribution-NonCommercial 2.0 Generic License</a>.</p>
+  <p>Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.</p>
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="http://github.com/clrh/test-mkdocs.git/" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="extracttext.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="filesideload.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

@@ -5,11 +5,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="None">
+  
   
   
   <link rel="shortcut icon" href="img/favicon.ico">
-  <title>Omeka S User Manual - fr- version française</title>
+  <title>Admin Dashboard - Omeka S User Manual - fr- version française</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="css/theme.css" />
@@ -19,8 +19,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Home";
-    var mkdocs_page_input_path = "index.md";
+    var mkdocs_page_name = "Admin Dashboard";
+    var mkdocs_page_input_path = "admin-dashboard.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -47,10 +47,8 @@
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-                <ul class="current">
-                    <li class="toctree-l1 current"><a class="reference internal current" href="index.html">Home</a>
-    <ul class="current">
-    </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="index.html">Home</a>
                     </li>
                 </ul>
                 <ul>
@@ -65,8 +63,14 @@
                     <li class="toctree-l1"><a class="reference internal" href="install.html">Installing</a>
                     </li>
                 </ul>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="admin-dashboard.html">Admin Dashboard</a>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="admin-dashboard.html">Admin Dashboard</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#navigation-a-gauche">Navigation à gauche</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#informations-systeme">Informations système</a>
+    </li>
+    </ul>
                     </li>
                 </ul>
                 <ul>
@@ -202,10 +206,10 @@
     
       
     
-    <li>Home</li>
+    <li>Admin Dashboard</li>
     <li class="wy-breadcrumbs-aside">
       
-        <a href="http://github.com/clrh/test-mkdocs.git/edit/master/docs/index.md"
+        <a href="http://github.com/clrh/test-mkdocs.git/edit/master/docs/admin-dashboard.md"
           class="icon icon-github"> Edit on GitHub</a>
       
     </li>
@@ -217,20 +221,12 @@
           <div role="main">
             <div class="section">
               
-                <p>Omeka S est un outil de publication web (ou CMS) pour les universités, galeries, bibliothèques, archives et musées et toute structure désireuse de publier des documents numériques en ligne. Omeka permet d'exposer des médias de tout types et leur métadonnées.
-Les sections de ce manuel correspondent aux sections du [tableau de bord de l'administration] (admin-dashboard.md) d'un Omeka-S standard :</p>
-<p><strong>Sites</strong><br />
-Créer, éditer et gérer les sites, interfaces publiques d'une instance Omeka S.</p>
-<p><strong>Ressources</strong><br />
-Créer, éditer et gérer les contenus de votre instance : contenus, collections, médias, vocabulaires, et modèles de contenu.</p>
-<p><strong>Admin</strong><br />
-Accès aux fonctions d'administration variant selon le rôle de l'utilisateur mais sont inclus la gestion des utilisateurs,des tâches et des paramétrages.</p>
-<p><strong>Modules</strong><br />
-Cette section donne l'accès à la gestion des modules qui étendent les fonctionnalités de votre instance Omeka-S et de vos sites. La documentation spécifique aux modules d'Omeka S créée par RRCHNM y est accessible et listée dans l'ordre alphabétique.</p>
+                <p>Le tableau de bord gère le contenu partagé par tous les sites OmekaS et les fonctionnalités de base de l'installation OmekaS.</p>
 <p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-This manual also includes a <a href="glossary.html">glossary</a>, instructions on conducting <a href="search.html">searches</a>, and how to turn on <a href="errorLogging.html">error logging</a>.</p>
-<h1 id="screencasts-to-supplement-the-documentation-are-linked-from-relevant-pages-and-can-be-browsed-in-the-omeka-s-collection-on-vimeo">Screencasts to supplement the documentation are linked from relevant pages, and can be browsed in the <a href="https://vimeo.com/showcase/4215056">Omeka S collection on Vimeo</a>.</h1>
-<p>Ce manuel inclue également un <a href="glossary.html">glossaire</a>, une <a href="search.html">aide à la recherche</a>, et comment gérer les <a href="errorLogging.html">erreurs de logs</a></p>
+This <a href="https://vimeo.com/455708039">screencast</a> walks you through the main features of the dashboard and navigating your Omeka S installation.</p>
+<p><a href="https://vimeo.com/455708039"><img alt="Still image of the first frame of a vimeo video" src="files/navigatingOmekaS-still.png" /></a></p>
+<h1 id="admin-main-page">Admin Main Page</h1>
+<p>Page principale de l'administrateur</p>
 <blockquote>
 <blockquote>
 <blockquote>
@@ -246,7 +242,145 @@ This manual also includes a <a href="glossary.html">glossary</a>, instructions o
 </blockquote>
 </blockquote>
 </blockquote>
-<p>Cette documentation est sous licence CC-BY-NC</p>
+<hr />
+<p>Lorsqu'un utilisateur se connecte, la première page qu'il voit est le tableau de bord de l'administrateur.</p>
+<p><em>Remarque: selon le rôle de l'utilisateur, il est possible que vous ne voyiez pas exactement les mêmes options dans la navigation de gauche. Voir <a href="#left-hand-navigation">ci-dessous</a> pour plus de détails</em></p>
+<p><img alt="Admin dashboard full view" src="files/admindashfullview.png" /></p>
+<p>Outre la navigation de gauche présente sur toutes les pages (voir ci-dessous), le tableau de bord de l'administrateur propose aux utilisateurs deux zones: <em>Gérer les ressources</em> et <em>Gérer les sites</em>.</p>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+The <em>Manage Resources</em> box displays the following resources with their total count: <a href="content/items.html">Items</a>, <a href="content/item-sets.html">Item Sets</a>, <a href="content/vocabularies.html">Vocabularies</a>, and <a href="content/resource-template.html">Resource Templates</a>. Clicking on the label of the Resource will take you to the browse page; clicking the Plus button to the right of the label will take you to the add page for that resource type. 
+=======
+La zone <em>Gérer les essources</em> affiche les ressources suivantes avec leur nombre total: <a href="/content/items.md">Contenus</a> , <a href="/content/item-sets.md">Collections</a> , <a href="/content/vocabularies.md">Vocabulaires</a>, et <a href="/content/resource-template.md">Modèles de ressources</a>. En cliquant sur le libellé des ces entrées, vous accédez à la page de navigation. En cliquant sur le bouton "Plus" situé à droite de l'étiquette, vous accédez à la page d'ajout pour ce type de ressource.</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>[FR] Traduction française - fr-v0.1</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<p><img alt="Close up of manage resources and manage sites boxes" src="files/admindashmanage.png" /></p>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+The <em>Manage Sites</em> box lists the <a href="sites/index.html">Sites</a> on the install. Clicking on the site name will take you to the public view of the site; clicking the edit (pencil) button will take you to the Edit Site Info page for that site. 
+=======
+La zone <em>Gérer les sites</em> répertorie les <a href="/sites/index.md">Sites</a> sur l’instance. En cliquant sur le nom du site, vous accédez à la vue publique du site. En cliquant sur le bouton Modifier (crayon), vous accédez à la page Modifier les informations sur le site de ce site.</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>[FR] Traduction française - fr-v0.1</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="navigation-a-gauche">Navigation à gauche</h2>
+<p>Le contenu suivant apparaît sur le côté gauche du tableau de bord de l'administrateur et sur toutes les pages administratives.</p>
+<p><img alt="View of the left hand navigation on the admin dashboard, which also appears consistently throughout the admin interface, with options as described below" src="files/leftnav.png" /></p>
+<p>Dans le coin supérieur gauche de l'écran se trouve un lien affichant le titre de l'installation, qui vous ramène toujours au tableau de bord de l'administrateur.</p>
+<p>Directement sous le titre de l'installation, vous trouverez le message «Connecté en tant qu'utilisateur », où <em>Utilisateur</em> correspond au nom complet de la personne connectée. À proximité du nom d'utilisateur (en bas ou à droite, en fonction de la largeur de la fenêtre) se trouve le bouton permettant de <em>se déconnecter</em> .</p>
+<p>Au-dessous des informations utilisateur se trouve un champ de recherche avec une option de recherche avancée (ellipses) en plus du bouton de recherche (loupe). Utilisez-le pour rechercher toutes les ressources de l'instance.</p>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+Advanced search options (the ellipses) allow you to refine the search by Resource Type, limiting it to <em>Items</em>, <em>Item Sets</em>, or <em>Media</em> by clicking the radio button next to the Resource Type you want to search. 
+=======
+Les options de recherche avancées (les ellipses) vous permettent d’affiner la recherche par type de ressources, en la limitant aux contenus, collections ou supports en cliquant sur le bouton radio situé en regard du type de ressource que vous souhaitez rechercher.</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>[FR] Traduction française - fr-v0.1</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<p><img alt="Advanced search options" src="files/search.png" /></p>
+<p>La navigation de gauche du tableau de bord est divisée en sections relatives aux fonctions et aux accès des utilisateurs:</p>
+<ul>
+<li><a href="/sites/index.md">Sites</a>: répertorie et donne accès à tous les sites de l'installation d'OmekaS. (Icône "ordinateur")</li>
+<li>Ressources : création de contenu et gestion des métadonnées<ul>
+<li><a href="/content/items.md">Contenus</a> : gérer les contenus individuels de votre instance. (Icône "boîte")</li>
+<li><a href="/content/item-sets.md">Collections</a>: gérer des groupes d'éléments agrégés. (Icône "Plusieurs cases")</li>
+<li><a href="/content/vocabularies.md">Vocabulaires</a> : gérez les normes de métadonnées pour votre installation. (Icône "livre fermé")</li>
+<li><a href="/content/resource-template.md">Modèles de ressources</a> : gestion des ensembles prédéfinis (champs) à utiliser lors de la création d'éléments. (Crayon "icône carrée")</li>
+</ul>
+</li>
+<li>Admin: administration au niveau de l'installation (notez que certains de ces onglets peuvent ne pas être visibles à tous les niveaux d'utilisateurs)<ul>
+<li><a href="/admin/users.md">Utilisateurs</a> : gérez les utilisateurs pour l'ensemble de l'installation et des sites individuels. (icône "personne tête et épaules")</li>
+<li><a href="/modules/index.md">Modules</a> : ajouter des fonctionnalités à vos sites. (icône "signe plus dans une icône carrée")</li>
+<li><a href="/admin/jobs.md">Tâches</a> : affiche les tâches activées par l'utilisateur en cours d'exécution. NB: les tâches ne s'affichent que lorsqu'elles sont en cours d'exécution. (Icône "trois barres")</li>
+<li><a href="/admin/settings.md">Paramètres</a> : gérez les paramètres globaux de tous les sites, le tableau de bord de l'administrateur et les tableaux de bord du site. (Icône "rouages")</li>
+</ul>
+</li>
+</ul>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+- <a href="sites/index.html">Sites</a>: lists and provides access to all of the sites on the OmekaS install. (Computer icon)
+- Resources: content creation and metadata management
+    - <a href="content/items.html">Items</a>: manage the individual resources of your install. (Box icon)
+    - <a href="content/item-sets.html">Item Sets</a>: manage aggregated groups of items. (Multiple boxes icon)
+    - <a href="content/vocabularies.html">Vocabularies</a>: manage the metadata standards for your install. (Closed book icon)
+    - <a href="content/resource-template.html">Resource Templates</a>: manage predefined sets of properties (fields) to use when creating items. (Pencil in a square icon)
+- Admin: installation-level administration (note that some of these tabs may not be visible to all user levels)
+    - <a href="admin/users.html">Users</a>: manage users for the whole install and individual sites. (head and shoulders person icon)
+    - <a href="modules/index.html">Modules</a>: add functionality to your sites. (Plus sign in square icon)
+    - <a href="admin/jobs.html">Jobs</a>: displays the user-activated tasks which are currently running. NB: jobs only display when they are running. (Three bars icon)
+    - <a href="admin/settings.html">Settings</a>: manage the global settings for all sites, the admin dashboard and the site dashboards. (Gears icon)
+=======
+Si vous avez installé des modules, ils peuvent apparaître dans la section admin de la navigation de gauche, sous les paramètres.</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>[FR] Traduction française - fr-v0.1</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>Notez que les utilisateurs avec des autorisations plus limitées ne verront que certaines de ces options de navigation.</p>
+<h2 id="informations-systeme">Informations système</h2>
+<p>Dans le coin inférieur droit se trouve un court affichage de la version actuelle d’Omeka S. Cliquez sur le lien intitulé <em>Informations système</em> pour afficher une page complète avec des détails.</p>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+<img alt="Example system information page" src="files/systeminfo.png" />
+=======
+<img alt="Example system information page" src="/files/systeminfo.png" /></p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>[FR] Traduction française - fr-v0.1</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
               
             </div>
           </div>
@@ -254,8 +388,10 @@ This manual also includes a <a href="glossary.html">glossary</a>, instructions o
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="accessibility.html" class="btn btn-neutral float-right" title="Accessibility Statement">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="glossary.html" class="btn btn-neutral float-right" title="Glossary">Next <span class="icon icon-circle-arrow-right"></span></a>
       
+      
+        <a href="install.html" class="btn btn-neutral" title="Installing"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -286,8 +422,10 @@ This manual also includes a <a href="glossary.html">glossary</a>, instructions o
         </span>
     
     
+      <span><a href="install.html" style="color: #fcfcfc">&laquo; Previous</a></span>
     
-      <span><a href="accessibility.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+      <span><a href="glossary.html" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
@@ -303,8 +441,3 @@ This manual also includes a <a href="glossary.html">glossary</a>, instructions o
 
 </body>
 </html>
-
-<!--
-MkDocs version : 1.2.1
-Build Date UTC : 2021-06-15 14:48:22.304114+00:00
--->

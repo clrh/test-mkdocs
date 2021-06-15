@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>Searching - Omeka S User Manual - fr- version française</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  <link href="css/extra.css" rel="stylesheet" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Searching";
+    var mkdocs_page_input_path = "search.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="js/jquery-2.1.1.min.js" defer></script>
+  <script src="js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="index.html" class="icon icon-home"> Omeka S User Manual - fr- version française</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="index.html">Home</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="accessibility.html">Accessibility Statement</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="s-planning-tips.html">Planning Tips</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="install.html">Installing</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="admin-dashboard.html">Admin Dashboard</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossary</a>
+                    </li>
+                </ul>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="search.html">Searching</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#recherche-simple">Recherche simple</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#recherche-avancee-de-contenus">Recherche avancée de contenus</a>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="frontpage.html">Front Page</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Sites</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="sites/index.html">Sites Management</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="sites/site_settings.html">Site Admin</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="sites/site_pages.html">Pages Management</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="sites/site_navigation.html">Navigation</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="sites/site_resources.html">Resources</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="sites/site_users.html">User Permissions</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="sites/site_theme.html">Theme Selection</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Resources</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="content/items.html">Items</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="content/item-sets.html">Item Sets</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="content/media.html">Media</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="content/vocabularies.html">Vocabularies</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="content/resource-template.html">Resource Templates</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Admin</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="admin/users.html">Users</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="admin/jobs.html">Jobs</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="admin/settings.html">Manage Settings</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Modules</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="modules/index.html">Modules Management</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="modules/collecting.html">Collecting</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="modules/csseditor.html">CSS Editor</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="modules/csvimport.html">CSV Import</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="modules/customvocab.html">Custom Vocab</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="modules/dspaceconnector.html">DSpace Connector</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="modules/extracttext.html">Extract Text</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="modules/fedoraconnector.html">Fedora Connector</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="modules/filesideload.html">File Sideload</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="modules/mapping.html">Mapping</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="modules/metadatabrowse.html">Metadata Browse</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="modules/numericdatatypes.html">Numeric Data Types</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="modules/omeka2importer.html">Omeka2 Importer</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Scripto</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="modules/scripto/index.html">Set up Scripto</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="modules/scripto/scriptoproject.html">Scripto Projects</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="modules/scripto/themeingScripto.html">Themeing Scripto</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="modules/scripto/scriptoPublicView.html">Public Interface</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="modules/scripto/troubleshootingScripto.html">Troubleshooting</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="modules/sharing.html">Sharing</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="modules/valuesuggest.html">ValueSuggest</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="modules/zoteroimport.html">Zotero Import</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="errorLogging.html">Retrieving Error Messages</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="translateOmekaS.html">Translate Omeka S</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration Options</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">Omeka S User Manual - fr- version française</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Searching</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="http://github.com/clrh/test-mkdocs.git/edit/master/docs/search.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <p>Il existe des fonctions de recherche sur les interfaces d'administration et publique des installations et des sites Omeka S.</p>
+<h2 id="interface-dadministration">Interface d'administration</h2>
+<h3 id="recherche-simple">Recherche simple</h3>
+<p>Il y a un champ de recherche dans la partie supérieure du menu de gauche, juste en dessous des informations de l'utilisateur. Ce champ de recherche fonctionne comme une recherche par mot-clé parmi toutes les propriétés d'une ressource.</p>
+<p><img alt="Search option in blue sidebar." src="files/search1.png" /></p>
+<p>Par défaut, cette recherche concerne les contenus de votre instance. Toutefois, vous pouvez utiliser les trois petits points pour ouvrir un menu et modifier le type de ressource recherché, en sélectionnant Contenus, Collections ou Médias.</p>
+<p><img alt="Close up on the search options, showing the expanded ellipses menu with selection options for Items, Item Sets, or Media." src="files/search2.png" /></p>
+<h3 id="recherche-avancee-de-contenus">Recherche avancée de contenus</h3>
+<p>La recherche avancée de contenus est uniquement disponible sur la page <em>Contenus</em>, à partir du lien <em>Recherche avancée</em> situé au-dessus du tableau des contenus. <a href="/content/items.md">Items</a></p>
+<p><img alt="Advanced search button indicated with a red arrow." src="files/advancedsearch2.png" /></p>
+<p>La recherche avancée se charge sur une nouvelle page et comporte les options suivantes:</p>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+<img alt="Advanced item search options page." src="files/advancedsearch3.png" /></p>
+<h1 id="search-full-text-runs-a-full-text-search-on-all-of-the-text-for-every-item-in-the-installation"><em>Search full-text:</em> runs a full-text search on all of the text for every item in the installation.</h1>
+<p><em>Recherche en texte intégral</em>: exécute une recherche en texte intégral sur tout le texte pour chaque élément de l'installation.</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>[FR] Traduction française - fr-v0.1</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<p><em>Recherche par valeur</em>: rechercher un terme ou une phrase que vous entrez</p>
+<ul>
+<li>Le premier sélecteur vous permet de spécifier une propriété à rechercher.</li>
+<li>Le second sélecteur vous permet de définir la relation entre la propriété et la valeur. Les options sont:<ul>
+<li>est exactement,</li>
+<li>n'est pas exactement,</li>
+<li>contient</li>
+<li>ne contient pas,</li>
+<li>est la ressource avec ID,</li>
+<li>n'est pas la ressource avec ID,</li>
+<li>a une valeur quelconque (il y a quelque chose dans la propriété), </li>
+<li>n'a pas de valeurs.</li>
+</ul>
+</li>
+<li>Enfin, un champ de texte vous permet de saisir la valeur que vous souhaitez attribuer à la propriété.</li>
+</ul>
+<p>Pour trouver un identifiant de ressource, allez à la ressource et regardez l'URL dans la barre d'adresse de votre navigateur. Les chiffres à la fin de l'URL sont l'ID de la ressource.</p>
+<p><em>Recherche par classe</em>: sélectionnez une classe à rechercher dans le menu déroulant.</p>
+<p><em>Rechercher par modèle</em>: sélectionnez un modèle de ressource dans la liste déroulante. Les modèles sont classés par propriétaire, puis par ordre alphabétique.</p>
+<p><em>Rechercher par collection</em> : sélectionnez dans une liste déroulante d'ensembles d'éléments.</p>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+<em>Search by site:</em> select a site from a dropdown of sites in the installation. Note that you can only search for items from one site at a time.<br />
+=======
+<em>Dans le réservoir du site</em>: sélectionnez dans un menu déroulant tous les sites de l'installation Omeka S, triés par utilisateur.</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>[FR] Traduction française - fr-v0.1</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<p><em>In site pool:</em> select from a dropdown menu of all the sites on the Omeka S installation, sorted by user-owner. </p>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+Searches by value, class, template, and item set allow you to search by more than one input - use the large red <em>add new</em> buttons to search with more than one value or item set. These search terms build - searching for two item sets will return all items in either item set, rather than only those items which are in both. 
+=======
+Les recherches par valeur, classe, modèle et collection vous permettent d'effectuer une recherche selon plusieurs entrées. Utilisez les boutons <em>Ajouter de nouveaux boutons</em> pour effectuer une recherche avec plusieurs ensembles de valeurs ou d'éléments. Ces termes de recherche se cumulent - la recherche de deux ensembles d’articles renverra tous les éléments de l’un ou l’autre ensemble, plutôt que seulement les éléments qui se trouvent dans les deux.</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>[FR] Traduction française - fr-v0.1</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>Vous pouvez supprimer les recherches de valeurs et d’ensembles d’articles à l’aide de l’icône de corbeille rouge située à droite de ces options de recherche.</p>
+<p>Vous pouvez réinitialiser vos termes de recherche à tout moment en utilisant le bouton "Réinitialiser" situé dans le coin supérieur droit, à côté du bouton "Rechercher".</p>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</p>
+<h2 id="media-advanced-search">Media advanced search</h2>
+<h1 id="advanced-search-for-media-is-accessed-from-the-media-browse-page-from-the-advanced-search-link-above-the-table-of-item-sets">Advanced search for media is accessed from the <a href="/content/media">Media</a> browse page, from the <em>Advanced Search</em> link above the table of item sets.</h1>
+<h2 id="recherche-avancee-de-medias">Recherche avancée de Médias</h2>
+<p>La recherche avancée de médias est accessible en cliquant sur la page Contenus/médias , à partir du lien <em>Recherche avancée</em> situé au-dessus du tableau des médias.</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>[FR] Traduction française - fr-v0.1</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<p><img alt="Advanced search button indicated with a red arrow." src="files/search_mediaadvance1.png" /></p>
+<p><em>Recherche en texte intégral</em>: exécute une recherche en texte intégral sur tout le texte pour chaque élément de l'installation.</p>
+<p><em>Recherche par valeur</em>: rechercher un terme ou une phrase que vous entrez</p>
+<ul>
+<li>Le premier sélecteur vous permet de spécifier une propriété à rechercher.</li>
+<li>Le second sélecteur vous permet de définir la relation entre la propriété et la valeur. Les options sont:<ul>
+<li>est exactement,</li>
+<li>n'est pas exactement,</li>
+<li>contient</li>
+<li>ne contient pas,</li>
+<li>est la ressource avec ID,</li>
+<li>n'est pas la ressource avec ID,</li>
+<li>a une valeur quelconque (il y a quelque chose dans la propriété), </li>
+<li>n'a pas de valeurs.</li>
+</ul>
+</li>
+<li>Enfin, un champ de texte vous permet de saisir la valeur que vous souhaitez attribuer à la propriété.</li>
+</ul>
+<p>Pour trouver un identifiant de ressource, allez à la ressource et regardez l'URL dans la barre d'adresse de votre navigateur. Les chiffres à la fin de l'URL sont l'ID de la ressource.</p>
+<p>Vous pouvez supprimer les recherches de valeur à l'aide de l'icône de corbeille rouge située à droite des paramètres de valeur.</p>
+<p>Recherche par classe: sélectionnez une classe à rechercher dans le menu déroulant.</p>
+<p>Rechercher par modèle: sélectionnez un modèle de ressource dans la liste déroulante. Les modèles sont classés par propriétaire, puis par ordre alphabétique.</p>
+<p><em>Search by MIME type:</em> you can specify the media type for the search. For example, to find all tiff images, you would enter <code>image/tiff</code>. </p>
+<p><img alt="Advanced media search options form, with fields as described above." src="/files/search_mediaadvance2.png" /></p>
+<p>Les recherches par valeur, classe et modèle vous permettent d'effectuer une recherche sur plusieurs entrées. Utilisez les boutons <em>Ajouter de nouveaux boutons</em> pour effectuer une recherche avec plusieurs valeurs ou ensembles d'éléments. Ces termes de recherche se cumulent - la recherche de deux modèles renverra tous les médias en utilisant l'un ou l'autre modèle.</p>
+<p>Vous pouvez supprimer les recherches de valeurs et d’ensembles d’articles à l’aide de l’icône de corbeille rouge située à droite de ces options de recherche.</p>
+<p>Vous pouvez réinitialiser vos termes de recherche à tout moment en utilisant le bouton "Réinitialiser" situé dans le coin supérieur droit, à côté du bouton "Rechercher".</p>
+<h3 id="recherche-avancee-dans-les-collections">Recherche avancée dans les collections</h3>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+Advanced search for item sets only is accessed on the <a href="content/item-sets">Item Sets</a> page, from the <em>Advanced Search</em> link above the table of item sets.
+=======
+La recherche avancée pour les collections est accessible sur la page <em>collection</em> , à partir du lien <em>Recherche avancée</em> situé au-dessus du tableau des collections.</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>[FR] Traduction française - fr-v0.1</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<p><a href="/content/item-sets">Item Sets</a>
+<img alt="Advanced search button indicated with a red arrow." src="/files/advancedsearchis1.png" /></p>
+<p>La recherche avancée se charge sur une nouvelle page  </p>
+<p><em>Recherche en texte intégral</em>: exécute une recherche en texte intégral sur tout le texte pour chaque élément de l'installation.</p>
+<p><em>Recherche par valeur</em>: rechercher un terme ou une phrase que vous entrez</p>
+<ul>
+<li>Le premier sélecteur vous permet de spécifier une propriété à rechercher.</li>
+<li>Le second sélecteur vous permet de définir la relation entre la propriété et la valeur. Les options sont:<ul>
+<li>est exactement,</li>
+<li>n'est pas exactement,</li>
+<li>contient</li>
+<li>ne contient pas,</li>
+<li>est la ressource avec ID,</li>
+<li>n'est pas la ressource avec ID,</li>
+<li>a une valeur quelconque (il y a quelque chose dans la propriété), </li>
+<li>n'a pas de valeurs.</li>
+</ul>
+</li>
+<li>Enfin, un champ de texte vous permet de saisir la valeur que vous souhaitez attribuer à la propriété.</li>
+</ul>
+<p>Pour trouver un identifiant de ressource, allez à la ressource et regardez l'URL dans la barre d'adresse de votre navigateur. Les chiffres à la fin de l'URL sont l'ID de la ressource.</p>
+<p>Vous pouvez supprimer les recherches de valeur à l'aide de l'icône de corbeille rouge située à droite des paramètres de valeur.</p>
+<p>Recherche par classe: sélectionnez une classe à rechercher dans le menu déroulant.</p>
+<p>Rechercher par modèle: sélectionnez un modèle de ressource dans la liste déroulante. Les modèles sont classés par propriétaire, puis par ordre alphabétique.</p>
+<p><img alt="Advanced item set search options form, with fields as described above." src="files/advancedsearchis2.png" /></p>
+<p>Les recherches par valeur, classe et modèle vous permettent d'effectuer une recherche sur plusieurs entrées. Utilisez les boutons <em>Ajouter de nouveaux boutons</em> pour effectuer une recherche avec plusieurs valeurs ou ensembles d'éléments. Ces termes de recherche se cumulent - la recherche de deux modèles renverra toutes les collections en utilisant l'un ou l'autre modèle.</p>
+<p>Vous pouvez réinitialiser vos termes de recherche à tout moment en utilisant le bouton "Réinitialiser" situé dans le coin supérieur droit, à côté du bouton "Rechercher".</p>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</p>
+<h2 id="public-views">Public views</h2>
+<h1 id="the-exact-appearance-of-the-search-interface-will-vary-based-on-the-theme-selected-however-the-way-search-works-should-be-consistent-regardless-of-theme-all-of-the-screenshots-in-this-section-are-from-a-site-using-the-the-default-theme">The exact appearance of the search interface will vary based on the <a href="/sites/site_theme/">theme</a> selected. However, the way search works should be consistent regardless of theme. All of the screenshots in this section are from a site using the the Default theme.</h1>
+<h2 id="vues-publiques">Vues publiques</h2>
+<p>L’apparence exacte de l’interface de recherche varie en fonction du <a href="sites/site_theme/">thème</a> sélectionné. Cependant, le mode de recherche doit être cohérent quel que soit le thème. Toutes les captures d'écran de cette section proviennent d'un site utilisant le thème Par défaut.</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>[FR] Traduction française - fr-v0.1</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<h3 id="recherche-simple_1">Recherche simple</h3>
+<p>Il y a une barre de recherche près du menu pour chaque site. Dans le thème par défaut, il se trouve juste en dessous du menu principal, comme indiqué dans l'image ci-dessous.</p>
+<p><img alt="Homepage of the Jane Austen site, with a blue arrow pointing to the search bar below the main navigation menu" src="files/search_public1.png" /></p>
+<p>Cette barre de recherche fonctionne comme une recherche en texte intégral pour l'ensemble du site. Il recherchera tous les contenus, collections et supports ainsi que le contenu de chaque page publiée sur le site. Les résultats sont triés par type, en regroupant les résultats de page et les résultats d'élément ou de jeu d'éléments. Depuis la page de résultats initiale, vous pouvez afficher tous les résultats pour ce type (page, élément) à l’aide du lien "Afficher tous les résultats".</p>
+<p><img alt="Search results for &quot;Cassandra&quot; showing one page and three items" src="files/search_public2.png" /></p>
+<p>If the [</p>
+<h3 id="recherche-avancee-de-contenus_1">Recherche avancée de contenus</h3>
+<p>Si cette page est accessible, les visiteurs du site peuvent accéder à une recherche avancée de contenus à partir de la page "Parcourir" (ou "Parcourir les contenus selon les thèmes). Il existe un lien pour la recherche avancée entre la pagination et les options de tri en haut du tableau de navigation des articles.</p>
+<p><img alt="The Items page of the Jane Austen site, with a blue arrow pointing to the link for Advanced search" src="files/search_publicitems1" /></p>
+<p>En cliquant dessus, une nouvelle page contenant quatre options de recherche est chargée:</p>
+<p><em>Recherche en texte intégral</em>: exécute une recherche en texte intégral sur tout le texte pour chaque élément de l'installation.</p>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+- The first selector allows you to specify a property to search. 
+    - Note that if you have have the <a href="sites/site_settings/#search">site settings</a> to restrict search to templates, this will only display the properties used by those templates. 
+- The second selector allows you to set the relationship the property has with the value. The options are:
+    - is exactly, 
+    - is not exactly, 
+    - contains,
+    - does not contain,
+    - is resource with ID,
+    - is not resource with ID,
+    - has any value (there is something in the property), and
+    - has no values.
+- Finally, there is a text field for you to enter the value you want the property to have.
+=======
+<em>Recherche par valeur</em>: recherchez un terme ou une phrase en utilisant plusieurs options.
+- Le premier sélecteur vous permet de spécifier une propriété à rechercher.
+    - Notez que si les <a href="/sites/site_settings/#search">paramètres du site</a>  permettent de limiter la recherche aux modèles, seules les propriétés utilisées par ces modèles seront affichées.</p>
+<ul>
+<li>Le second sélecteur vous permet de définir la relation entre la propriété et la valeur. Les options sont:<ul>
+<li>est exactement,</li>
+<li>n'est pas exactement,</li>
+<li>contient</li>
+<li>ne contient pas,</li>
+<li>est la ressource avec ID,</li>
+<li>n'est pas la ressource avec ID,</li>
+<li>a une valeur quelconque (il y a quelque chose dans la propriété)</li>
+<li>n'a pas de valeurs.</li>
+</ul>
+</li>
+<li>Enfin, un champ de texte vous permet de saisir la valeur que vous souhaitez attribuer à la propriété.<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>[FR] Traduction française - fr-v0.1</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</li>
+</ul>
+<p>Pour trouver un identifiant de ressource, allez à la ressource et regardez l'URL dans la barre d'adresse de votre navigateur. Les chiffres à la fin de l'URL sont l'ID de la ressource.</p>
+<p><em>Recherche par classe</em>: sélectionnez une classe à rechercher dans le menu déroulant.</p>
+<p><em>Rechercher par collection</em>: sélectionnez dans une liste déroulante de collections.</p>
+<p><img alt="Advanced item search fields as described" src="files/search_publicitems2" /></p>
+<p>Les recherches par valeur, classe et collection permettent à un visiteur d'effectuer une recherche selon plusieurs entrées. ils peuvent utiliser les boutons <em>ajouter de nouveaux</em> pour rechercher plusieurs critères de recherche. Ces termes de recherche se cumulent - la recherche de deux collections renverra tous les contenus de l’une ou l’autre collection, plutôt que seulement les contenus qui se trouvent dans les deux.</p>
+<p>Les visiteurs du site peuvent supprimer les recherches de valeurs et d’ensembles d’articles à l’aide de l’icône de corbeille rouge située à droite de ces options de recherche.</p>
+<h3 id="recherche-avancee-de-collections">Recherche avancée de collections</h3>
+<p>Les visiteurs du site peuvent accéder à une recherche avancée des collections à partir de la page <em>Parcourir les collections</em>, si cette page existe dans le thème. Il existe un lien pour la recherche avancée en haut à gauche de la page <em>Collections</em>.</p>
+<p><img alt="Item sets page for the Jane Austen site. A blue arrow points to the advanced search link" src="files/search_publicitemsets1.png" /></p>
+<p>Un clic sur le lien de recherche avancée charge une nouvelle page avec trois options de recherche:</p>
+<p><em>Recherche en texte intégral</em>: exécute une recherche en texte intégral sur tout le texte pour chaque élément défini dans l'instance.</p>
+<p><em>Recherche par valeur</em>: recherchez un terme ou une phrase en utilisant plusieurs options.
+- Le premier sélecteur vous permet de spécifier une propriété à rechercher.
+    - Notez que si les <a href="/sites/site_settings/#search">paramètres du site</a>  permettent de limiter la recherche aux modèles, seules les propriétés utilisées par ces modèles seront affichées.</p>
+<ul>
+<li>Le second sélecteur vous permet de définir la relation entre la propriété et la valeur. Les options sont:<ul>
+<li>est exactement,</li>
+<li>n'est pas exactement,</li>
+<li>contient</li>
+<li>ne contient pas,</li>
+<li>est la ressource avec ID,</li>
+<li>n'est pas la ressource avec ID,</li>
+<li>a une valeur quelconque (il y a quelque chose dans la propriété)</li>
+<li>n'a pas de valeurs.</li>
+</ul>
+</li>
+<li>Enfin, un champ de texte vous permet de saisir la valeur que vous souhaitez attribuer à la propriété.
+Pour trouver un identifiant de ressource, allez à la ressource et regardez l'URL dans la barre d'adresse de votre navigateur. Les chiffres à la fin de l'URL sont l'ID de la ressource.</li>
+</ul>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+- The first selector allows you to specify a property to search. 
+    - Note that if you have have the <a href="sites/site_settings/#search">site settings</a> to restrict search to templates, this will only display the properties used by those templates. 
+- The second selector allows you to set the relationship the property has with the value. The options are:
+    - is exactly, 
+    - is not exactly, 
+    - contains,
+    - does not contain,
+    - is resource with ID,
+    - is not resource with ID,
+    - has any value (there is something in the property), and
+    - has no values.
+- Finally, there is a text field for you to enter the value you want the property to have.
+=======
+<em>Recherche par classe</em>: sélectionnez une classe à rechercher dans le menu déroulant.</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>[FR] Traduction française - fr-v0.1</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<p><img alt="Item set advanced search options as described" src="/files/search_publicitemsets2.png" /></p>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+<img alt="Item set advanced search options as described" src="files/search_publicitemsets2.png" />
+=======
+Les recherches par valeur et classe permettent à un visiteur d'effectuer une recherche selon plusieurs entrées. ils peuvent utiliser les boutons <em>ajouter de nouveaux</em> pour rechercher plusieurs critères de recherche. Ces termes de recherche se cumulent - la recherche de deux classes renverra tous les contenus appartenant à l'une ou l'autre, et pas seulement les contenus qui se trouvent dans les deux classes.</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>[FR] Traduction française - fr-v0.1</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>Searches by value and class allow a visitor to search by more than one input; they can use the <em>add new</em> buttons to search with more than one search term. These search terms build - searching for two classes will return all item sets which have either class. </p>
+<p>Les visiteurs du site peuvent supprimer les recherches de valeurs et d’ensembles d’articles à l’aide de l’icône de corbeille rouge située à droite de ces options de recherche.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="frontpage.html" class="btn btn-neutral float-right" title="Front Page">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="glossary.html" class="btn btn-neutral" title="Glossary"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  <p><a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/2.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/2.0/">Creative Commons Attribution-NonCommercial 2.0 Generic License</a>.</p>
+  <p>Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.</p>
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="http://github.com/clrh/test-mkdocs.git/" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href="glossary.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="frontpage.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '.';</script>
+    <script src="js/theme_extra.js" defer></script>
+    <script src="js/theme.js" defer></script>
+      <script src="search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

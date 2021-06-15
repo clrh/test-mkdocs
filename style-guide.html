@@ -5,11 +5,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="None">
+  
   
   
   <link rel="shortcut icon" href="img/favicon.ico">
-  <title>Omeka S User Manual - fr- version française</title>
+  <title>Guide de rédaction - Omeka S User Manual - fr- version française</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="css/theme.css" />
@@ -19,8 +19,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Home";
-    var mkdocs_page_input_path = "index.md";
+    var mkdocs_page_name = "Guide de r\u00e9daction";
+    var mkdocs_page_input_path = "style-guide.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -47,10 +47,8 @@
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-                <ul class="current">
-                    <li class="toctree-l1 current"><a class="reference internal current" href="index.html">Home</a>
-    <ul class="current">
-    </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="index.html">Home</a>
                     </li>
                 </ul>
                 <ul>
@@ -202,10 +200,10 @@
     
       
     
-    <li>Home</li>
+    <li>Guide de rédaction</li>
     <li class="wy-breadcrumbs-aside">
       
-        <a href="http://github.com/clrh/test-mkdocs.git/edit/master/docs/index.md"
+        <a href="http://github.com/clrh/test-mkdocs.git/edit/master/docs/style-guide.md"
           class="icon icon-github"> Edit on GitHub</a>
       
     </li>
@@ -217,47 +215,29 @@
           <div role="main">
             <div class="section">
               
-                <p>Omeka S est un outil de publication web (ou CMS) pour les universités, galeries, bibliothèques, archives et musées et toute structure désireuse de publier des documents numériques en ligne. Omeka permet d'exposer des médias de tout types et leur métadonnées.
-Les sections de ce manuel correspondent aux sections du [tableau de bord de l'administration] (admin-dashboard.md) d'un Omeka-S standard :</p>
-<p><strong>Sites</strong><br />
-Créer, éditer et gérer les sites, interfaces publiques d'une instance Omeka S.</p>
-<p><strong>Ressources</strong><br />
-Créer, éditer et gérer les contenus de votre instance : contenus, collections, médias, vocabulaires, et modèles de contenu.</p>
-<p><strong>Admin</strong><br />
-Accès aux fonctions d'administration variant selon le rôle de l'utilisateur mais sont inclus la gestion des utilisateurs,des tâches et des paramétrages.</p>
-<p><strong>Modules</strong><br />
-Cette section donne l'accès à la gestion des modules qui étendent les fonctionnalités de votre instance Omeka-S et de vos sites. La documentation spécifique aux modules d'Omeka S créée par RRCHNM y est accessible et listée dans l'ordre alphabétique.</p>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-This manual also includes a <a href="glossary.html">glossary</a>, instructions on conducting <a href="search.html">searches</a>, and how to turn on <a href="errorLogging.html">error logging</a>.</p>
-<h1 id="screencasts-to-supplement-the-documentation-are-linked-from-relevant-pages-and-can-be-browsed-in-the-omeka-s-collection-on-vimeo">Screencasts to supplement the documentation are linked from relevant pages, and can be browsed in the <a href="https://vimeo.com/showcase/4215056">Omeka S collection on Vimeo</a>.</h1>
-<p>Ce manuel inclue également un <a href="glossary.html">glossaire</a>, une <a href="search.html">aide à la recherche</a>, et comment gérer les <a href="errorLogging.html">erreurs de logs</a></p>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<p>[FR] Traduction française - fr-v0.1</p>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-<p>Cette documentation est sous licence CC-BY-NC</p>
+                <h2 id="terminologie">Terminologie</h2>
+<p><strong>Tableau de bord d'administration</strong>:
+Tableau de bord d'administration: administration de l'ensemble de l'installation OmekaS, où les sites, les éléments, les vocabulaires, les modules, etc. sont gérés. </p>
+<p><strong>Tableau de bord du site</strong>: gestion du contenu du site, de la disposition, etc. </p>
+<p><strong>Barre latérale</strong>: les choses qui s’ouvrent à droite de l’écran lorsque vous cliquez l'icône "3 petits points".</p>
+<p>Voir aussi le <a href="glossary.html">glossaire</a></p>
+<h2 id="mise-en-page">Mise en page</h2>
+<p>Commencez chaque page avec: [3 traits, entrée]
+title: “Nom de la Page” [entrée, 3 traits] pour Jekyll. </p>
+<p>Les noms de fichier de page doivent être en minuscule avec les espaces représentés par un tiret (exemple : admin-dashboard.md pour la page Tableau de bord d'administration). </p>
+<p>Tous les liens relatifs doivent commencer par .. (exemple .. / contenu / etc)</p>
+<ul>
+<li>Omeka S est écrit * avec * un espace entre l'Omeka et le S.</li>
+<li>Mettre les noms des boutons en * italiques *</li>
+<li>Mettre les noms des options en * italiques *</li>
+<li>Décrivez les icônes en fonction de leur info-bulle, ex. modifier (icône du crayon), supprimer (icône de la corbeille), détails (icône 3 petits points). De cette façon, le texte est utile pour les utilisateurs de lecteurs d'écran ainsi que pour les autres.</li>
+<li>Les processus Ajouter, Modifier et Supprimer doivent être décrits séparément, chacun avec son propre en-tête.</li>
+<li>Utilisez H2 (##) pour chaque sous-section d'une page de documentation.</li>
+</ul>
               
             </div>
           </div>
           <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="accessibility.html" class="btn btn-neutral float-right" title="Accessibility Statement">Next <span class="icon icon-circle-arrow-right"></span></a>
-      
-      
-    </div>
   
 
   <hr/>
@@ -287,8 +267,6 @@ This manual also includes a <a href="glossary.html">glossary</a>, instructions o
     
     
     
-      <span><a href="accessibility.html" style="color: #fcfcfc">Next &raquo;</a></span>
-    
   </span>
 </div>
     <script>var base_url = '.';</script>
@@ -303,8 +281,3 @@ This manual also includes a <a href="glossary.html">glossary</a>, instructions o
 
 </body>
 </html>
-
-<!--
-MkDocs version : 1.2.1
-Build Date UTC : 2021-06-15 14:48:22.304114+00:00
--->
